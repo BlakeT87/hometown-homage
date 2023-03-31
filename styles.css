@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+li{
+    background: #9B3036;
+    border-radius: 10px;
+    font-size: 36px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 46px;
+    text-shadow: 0px 0px 2px white;
+
+}
+
+li:hover{
+    background:#FCC43C;
+    color:#23081A;
+    box-shadow: 0px 0px 10px 0px #23081A;
+}
+
+body{
+    background-image:url(Images/Mural.jpg);
+    background-size: cover;
+    font-family: 'Fondamento', cursive;
+}
