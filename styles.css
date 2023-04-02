@@ -1,50 +1,106 @@
-
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px dotted blue;*/
 }
 
-/* colors
-Yellow #d9d15e
-Dark Blue #1b2e34
-Light Blue #8bbbec
-Green #65855d
-Red #9b3036
-*/
-
-
-#header{
-    font-size: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #65855d;
-    height: 100px;
-    box-shadow: 0px 10px 10px #1b2e34;
-}
-
-body{
-    background-image:url(Images/Mural.jpg);
-    background-size: cover;
+html{
     font-family: 'Fondamento', cursive;
 }
 
-#hero{
-    margin-top: 100px;
+h1{
+    font-size:32px;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-size:18px;
+}
+
+body{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#hero{
+    background: url("Images/Murals/Garden-Mural.jpg");
+    width: 720px;
+    height: 350px; 
+    background-size: cover;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    filter:drop-shadow(0px 5px 4px rgba(106, 46, 52, 0.5));
+}
+
+#hero-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 412px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    background: #A39377;
+    box-shadow: 5px 5px 2px rgb(0,0,0,0.5); 
+}
+
+#hero-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 412px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    background: #415442;
+    box-shadow: 5px 5px 2px rgb(0,0,0,0.5);
+}
+
+#main{
+    color: #6A2E34;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#DDDAAC;
+    width: 720px;
+    height: 406px;
+}
+
+.location-pic{
+    height: 105px;
+    width: 105px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 .info{
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 600px;
-    background-color:#d9d15e
-
+    display: flex;
+    justify-content: center;;
+    align-items: flex-start;
 }
 
-.info p{
-    font-size: 24px;
-    margin-top: 30px;
+.info-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
 
+.title{
+    text-align: center;
+    height: 46px;
+    font-size: 16px;
+    margin: 20px 0px;
 }
